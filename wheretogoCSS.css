@@ -1,0 +1,28 @@
+h1 {
+  font-size: 100px;
+  font-style: italic;
+  color: black;
+  font-style: bold;
+  font-family: Apple chancery, cursive;
+  text-align: center;
+  margin: 0px;
+}
+
+
+body {
+  background: url('volcano.jpg');
+  background-size: cover;
+}
+/*
+.container {
+  width: 500px;
+}
+/*
+.carousel-slide {
+  width: 500px;
+} */
+
+#VoyagersCarousel {
+  /*width: 500px;*/
+  padding-left: 70px;
+}

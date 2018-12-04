@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 
 <html>
+<header>
 <head>
-  <link rel="stylesheet" type="text/css" href="CSSVoyagers.css">
+  <link rel="stylesheet" type="text/css" href="CSSVoyagersPush2.css">
 </head>
 <body>
 
 <h1>VOYAGERS</h1>
-
-<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
-
-<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
-<div class="mainpicture"><img src = "Budapest.jpg"id ="mainpic"></div>
-<div class="grid-container">
-  <div class="grid-item">LONDON<img src = "London.jpg" id ="gridpic"></div>
-  <div class="grid-item">PARIS<img src = "Paris.jpg" id ="gridpic"></div>
-  <div class="grid-item">VENICE<img src = "Venice.jpg"id ="gridpic"></div>
-  <div class="grid-item">LISBON<img src = "Lisbon.jpg"id ="gridpic"></div>
-  <div class="grid-item">MADRID<img src = "Madrid.jpg"id ="gridpic"></div>
-  <div class="grid-item">PRAGUE<img src = "Prague.jpg"id ="gridpic"></div>
-  <div class="grid-item">SEOUL<img src = "Seoul.jpg"id ="gridpic"></div>
-  <div class="grid-item">NEW YORK<img src = "Newyork.jpg"id ="gridpic"></div>
-  <div class="grid-item">BERLIN<img src = "Berlin.jpg"id ="gridpic"></div>
+<div class = "first">
+<p id = "opening">Welcome to Voyager's travelling guide! This blog gives you everything you
+  need to know about adventuring off to some of the world's most iconic cities.</p>
+<p>Where will your adventure begin?</p>
 </div>
+<ul id = "mainlist">
+     <li><a href="#">EUROPE</a></li>
+     <li><a href="#">NORTH AMERICA</a></li>
+     <li><a href="#">SOUTH AMERICA</a></li>
+     <li><a href="#">ASIA</a></li>
+     <li><a href="#">AFRICA</a></li>
+    <li><a href="#">AUSTRALASIA</a></li>
 
+   </ul>
+<div>
+</header>
+  <div class = "vessel">
+  <h2>This Month's Top Pick</h2>
+  <a href="html Budapest.html">
+<img src = "Budapest.jpg"id ="mainpic" alt="words" style="width:100%;">
+<div class = "textblock">
+  <h4 id = "budahead">Budapest</h4>
+  <p id = "picturetext">Discover Hungary's capital Budapest. A vibrant city with beautiful architecture, stunning walkways and
+    the elegance of the Danube. Cited as one of Europe's most attractive cities, Budapest offers a range of activites to shape your holiday memories.</p>
+  </div>
+</div>
+</a>
+<!--<nav class = "navbar navbar-right navbar-light sticky-top navbar-expand-md bg-light"> -->
+<!-- Picture grid of cities -->
+<div class="grid-container">
+  <div class="grid-item">
+    <h5 class="grid-title" id="L">LONDON</h5>
+    <img src = "London.jpg" id ="gridpic1">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="P">PARIS</h5>
+    <img src = "Paris.jpg" id ="gridpic2">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="V">VENICE</h5>
+    <img src = "Venice.jpg" id ="gridpic3">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="Li">LISBON</h5>
+    <img src = "Lisbon.jpg" id ="gridpic4">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="M">MADRID</h5>
+    <img src = "Madrid.jpg" id ="gridpic5">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="Pr">PRAGUE</h5>
+    <img src = "Prague.jpg" id ="gridpic6">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="S">SEOUL</h5>
+    <img src = "Seoul.jpg" id ="gridpic7">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="N">NEW YORK</h5>
+    <img src = "Newyork.jpg" id ="gridpic8">
+  </div>
+  <div class="grid-item">
+    <h5 class="grid-title" id="B">BERLIN</h5>
+    <img src = "Berlin.jpg" id ="gridpic9">
+  </div>
+</div>
+<a href="wheretogo.html">
+<button id="b2">Not sure where to travel?</button>
+</a>
+<footer>
+<ul id = "socialmedialist">
+     <li><a href="#">ITEM</a></li>
+     <li><a href="#">ITEM2</a></li>
+     <li><a href="#">ITEM3</a></li>
+   </ul>
+ </footer>
 </body>
 </html>

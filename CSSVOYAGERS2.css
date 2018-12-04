@@ -1,0 +1,111 @@
+
+
+
+h1 {
+  font-size: 300px;
+  color: white;
+  text-align: center;
+  font-style: bold;
+  font-family: Apple chancery, cursive;
+}
+
+h2{
+  font-size: 70px;
+  color: white;
+  text-align: right;
+  padding-right: 350px;
+}
+
+h3 {
+  font-size: 80px;
+  color: white;
+  text-align: left;
+  padding-left: 150px;
+}
+
+h4{
+  text-align: right;
+  color: white;
+  padding-right: 700px;
+  font-size: 50px;
+}
+
+p{
+  font-size: 50px;
+  color:white;
+  padding-right: 700px;
+}
+
+div {
+  width: 100px;
+  height: 200px;
+}
+
+button {
+  color: black;
+  padding-right: 300px;
+  margin-right: 0px;
+}
+ br {color: white;}
+
+ form {color: white;
+ position: right;
+
+}
+
+script {color: white;}
+innerHTML {color: white
+  font-weight: bold;
+}
+
+
+body  {
+  background: url("8.jpg");
+  text-align: right;
+  background-size: cover;
+}
+
+.image1 {
+  border: 10px solid rgba(255,255,255,0.8);
+  border-radius: 10px;
+  padding: 10px;
+  /*margin-left: 410px;
+  margin-right: 410px;*/
+  display: block;
+  /*align-items: center;*/
+}
+
+#allpics {
+  padding-left: 1700px;
+}
+
+
+form {
+                width:500px;
+                margin:20px;
+                padding-left:200px;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+/*
+@media (max-width: 3000px) {
+  .image1 {
+    display:inline;
+  }
+}
+*/
